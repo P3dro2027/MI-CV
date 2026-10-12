@@ -1,0 +1,124 @@
+
+.cv__foto img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  object-position: top;
+  /*border-radius: 50%;*/
+  display: block;
+  margin: 0 auto;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #001404;
+  color: #108301;
+  margin: 0;
+  padding: 0;
+  font-size: 1.4rem;
+}
+
+header {
+    background-image: url("HALO.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+
+  background-color: #000000;
+  padding: 2rem 1rem 1rem 1rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(105, 6, 170, 0.05);
+}
+
+.cv__nombre {
+  font-size: 2rem;
+  margin-top: 1rem;
+   color: #108301;
+    text-shadow:
+    -1px -1px 0 #000,
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  background: #000000;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+section {
+  border-bottom: 1px solid #42034b;
+  padding-bottom: 1rem;
+}
+section:last-child {
+  border-bottom: none;
+}
+/*1b8824 */
+h2 {
+  color: #cdf8c9;
+  /*#1b8824*/
+  margin-bottom: 0.5rem;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.7rem;
+  padding: 1rem;
+  background: #fff;
+  border-top: 1px solid #eee;
+  margin-top: 2rem;
+}
+
+
+.cv__experiencia ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  font-size: 1.2rem;
+}
+
+
+.cv__skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.cv__skills li {
+  background: #d35400;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  font-size: 1.3rem;
+  border-radius: 4px;
+  object-position: center;
+}
+.skill-icon {
+  width: 65px;
+  height: 65px;
+  object-fit: contain;
+}
+
+.cv__section--destacada {
+  background: #ffe5b4;
+  border-left: 4px solid #d35400;
+  padding-left: 1rem;
+}
+.cv__personalizacion img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
